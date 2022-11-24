@@ -1,0 +1,6 @@
+serivces: 
+  - docker
+
+script:
+   - docker build -t algofields/node .
+   - docker images algofields/node
